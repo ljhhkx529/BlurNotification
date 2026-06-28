@@ -2,6 +2,10 @@
 
 An LSPosed/Xposed module for Android 15 that adds dynamic blur to heads-up notifications in `SystemUI`.
 
+## Preview
+
+![BlurNotification heads-up blur preview](docs/images/hun-blur-preview.png)
+
 ## Features
 
 - Hooks `SystemUI` HUN background rendering
