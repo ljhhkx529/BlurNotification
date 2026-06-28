@@ -1,9 +1,10 @@
 <resources>
     <string name="app_name">BlurNotification</string>
     <string name="test_screen_title">Heads-Up Notification Test</string>
-    <string name="test_screen_summary">Use this screen to request notification permission and send a high-importance test notification for HUN blur validation.</string>
+    <string name="test_screen_summary">Use this screen to request notification permission, tune HUN blur parameters, and send a high-importance test notification for validation.</string>
     <string name="request_notification_permission">Request Notification Permission</string>
     <string name="send_heads_up_notification">Send Heads-Up Notification</string>
+    <string name="restart_systemui">Restart SystemUI</string>
     <string name="hun_channel_name">Blur HUN Test</string>
     <string name="hun_channel_description">High-importance channel used to trigger heads-up notifications.</string>
     <string name="test_notification_title">Blur Test</string>
@@ -12,11 +13,22 @@
     <string name="notification_sent">Test notification sent.</string>
     <string name="notification_permission_denied">Notification permission is required to send the test notification.</string>
     <string name="notification_manager_missing">NotificationManager is unavailable.</string>
-    <string name="status_template">Permission: %1$s\nChannel importance: %2$s\nCross-window blur: %3$s</string>
+    <string name="status_template">Permission: %1$s\nChannel importance: %2$s\nCross-window blur: %3$s\nTint alpha: %4$d\nBlur radius: %5$d\nConfig file: %6$s</string>
     <string name="status_granted">granted</string>
     <string name="status_missing">missing</string>
     <string name="status_high">high</string>
     <string name="status_not_high">not high</string>
     <string name="status_enabled">enabled</string>
     <string name="status_disabled">disabled</string>
+    <string name="tint_alpha_label">Foreground Tint Alpha</string>
+    <string name="blur_radius_label">Blur Radius</string>
+    <string name="tint_alpha_value">Current alpha: %1$d</string>
+    <string name="blur_radius_value">Current radius: %1$d</string>
+    <string name="config_saved">Config saved.</string>
+    <string name="config_save_failed">Failed to save config.</string>
+    <string name="systemui_restart_sent_command">SystemUI restart command sent: %1$s</string>
+    <string name="systemui_restart_failed_detail">SystemUI restart failed: %1$s</string>
+    <string name="systemui_restart_root_missing">`su` unavailable. Restart SystemUI manually.</string>
+    <string name="systemui_restart_interrupted">SystemUI restart interrupted.</string>
+    <string name="status_command_failed">Command failed\ncmd: %1$s\ncode: %2$d\ndetail: %3$s</string>
 </resources>
