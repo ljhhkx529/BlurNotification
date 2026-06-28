@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+        // 加入下面这一行！告诉它去这里找 Xposed API
+        maven { url 'https://api.xposed.info/' }
+    }
+}
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        // 加入下面这一行！告诉它去这里找 Xposed API
+        maven { url 'https://api.xposed.info/' }
+    }
+}
+
+rootProject.name = "BlurNotification"
+include ':app'

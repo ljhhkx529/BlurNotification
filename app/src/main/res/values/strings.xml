@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BlurNotification</string>
+    <string name="test_screen_title">Heads-Up Notification Test</string>
+    <string name="test_screen_summary">Use this screen to request notification permission and send a high-importance test notification for HUN blur validation.</string>
+    <string name="request_notification_permission">Request Notification Permission</string>
+    <string name="send_heads_up_notification">Send Heads-Up Notification</string>
+    <string name="hun_channel_name">Blur HUN Test</string>
+    <string name="hun_channel_description">High-importance channel used to trigger heads-up notifications.</string>
+    <string name="test_notification_title">Blur Test</string>
+    <string name="test_notification_content">Heads-up notification test</string>
+    <string name="test_notification_big_text">This notification is used to verify the LSPosed heads-up blur effect on SystemUI.</string>
+    <string name="notification_sent">Test notification sent.</string>
+    <string name="notification_permission_denied">Notification permission is required to send the test notification.</string>
+    <string name="notification_manager_missing">NotificationManager is unavailable.</string>
+    <string name="status_template">Permission: %1$s\nChannel importance: %2$s\nCross-window blur: %3$s</string>
+    <string name="status_granted">granted</string>
+    <string name="status_missing">missing</string>
+    <string name="status_high">high</string>
+    <string name="status_not_high">not high</string>
+    <string name="status_enabled">enabled</string>
+    <string name="status_disabled">disabled</string>
+</resources>
